@@ -84,7 +84,7 @@ function CardGeo({ texture, dull, position }: CardProps) {
 }
 
 const TechStack = () => {
-  const [isActive, setIsActive] = useState(false);
+  const [, setIsActive] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
