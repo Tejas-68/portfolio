@@ -1,5 +1,4 @@
 import * as THREE from "three";
-import { useState, useEffect } from "react";
 import { Canvas } from "@react-three/fiber";
 import { Environment, Float, RoundedBox } from "@react-three/drei";
 import { EffectComposer, N8AO } from "@react-three/postprocessing";
@@ -84,22 +83,6 @@ function CardGeo({ texture, dull, position }: CardProps) {
 }
 
 const TechStack = () => {
-  const [isActive, setIsActive] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollY =
-        window.scrollY || document.documentElement.scrollTop;
-      const threshold =
-        document.getElementById("work")?.getBoundingClientRect().top || 0;
-
-      setIsActive(scrollY > threshold - window.innerHeight / 2);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
   return (
     <div className="techstack" style={{ height: "100vh" }}>
       <h2>My Techstack</h2>
