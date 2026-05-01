@@ -1,0 +1,16 @@
+# Files to exclude from Vercel build
+
+.git
+.gitignore
+README.md
+DEPLOYMENT_GUIDE.md
+LICENSE
+.DS_Store
+*.log
+npm-debug.log*
+.vscode
+.idea
+*.local
+
+# Optional: exclude backup folder if you have one
+backup/
