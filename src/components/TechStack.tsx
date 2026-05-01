@@ -84,7 +84,7 @@ function CardGeo({ texture, dull, position }: CardProps) {
 
 const TechStack = () => {
   return (
-    <div className="techstack" style={{ height: "100vh" }}>
+    <div className="techstack" style={{ height: "150vh" }}>
       <h2>My Techstack</h2>
 
       <Canvas
