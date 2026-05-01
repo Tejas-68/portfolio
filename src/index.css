@@ -109,6 +109,15 @@ body {
   left: 0;
   font-weight: 400;
   text-transform: uppercase;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.tech-canvas {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 @media screen and (min-width: 768px) {
