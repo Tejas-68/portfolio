@@ -80,8 +80,7 @@ const SocialIcons = () => {
           </a>
         </span>
       </div>
-      {/* Replace 'YOUR_GOOGLE_DRIVE_LINK_HERE' with your actual link below */}
-      <a className="resume-button" href="YOUR_GOOGLE_DRIVE_LINK_HERE" target="_blank" rel="noopener noreferrer">
+      <a className="resume-button" href="https://drive.google.com/file/d/1jdV6UeW6Yv3DBLffOsaGboIMZVxJfDFL/view?usp=sharing" target="_blank" rel="noopener noreferrer">
         <HoverLinks text="RESUME" />
         <span>
           <TbNotes />
